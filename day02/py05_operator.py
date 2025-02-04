@@ -81,7 +81,7 @@ day = current[8:] #end 끝까지는 숫자 생략
 print(year, month, day)
 print(current[-2:])
 
-## 문자열 연산 중 함수를 사용용
+## 문자열 연산 중 함수를 사용
 full_name = "Hugo MG. Sung"
 # 자르기 
 print(full_name.split())
