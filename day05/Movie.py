@@ -8,7 +8,7 @@ class Movie:
         self.__rate = rate
 
     def __str__(self): #문자열 포맷팅 
-        str_res = (f'제목{self.__title}({self.__year}) \n'
+        str_res = (f'제목:{self.__title}({self.__year}) \n'
                    f'제작사: {self.__company}\n'
                    f'평점:{self.__rate}')
         return str_res

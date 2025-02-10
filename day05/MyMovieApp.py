@@ -23,9 +23,13 @@ def run():
     while True:
         sel_menu = set_menu()
         if sel_menu == 1:
-            print('영화 입력')
-            movie = set_movie()
-            lst_movie.append(movie)
+            # print('영화 입력')
+            try:
+                movie = set_movie()
+                lst_movie.append(movie)
+                print('영화입력 성공!')
+            except Exception as e:
+                print(f'영화 입력 실패!! {e}')
 
         elif sel_menu == 2:
             print('영화 출력')
@@ -54,9 +58,14 @@ def run():
 
 # 영화검색 함수 
 def search_movie(items: list, title: str):
+    count = 0
     for item in items: # items이 Movie 클래스인지 알수 없음 
         if item.isNameContain(title): # 오타발생 위험!
+            count += 1 # 검색된 결과 가 있음
             print(item)
+            print('----------')
+        
+    print(f'총 데이터수 : {count} 개')
 
 def del_movie(items: list, title: str):
     for i, item in enumerate(items):
@@ -64,7 +73,7 @@ def del_movie(items: list, title: str):
             del items[i] # 인덱스로 리스트에 요소하나를 삭제
  
 def set_movie():
-    title, year, company, rate = input('영화입력[제목,개봉년,제각사,평점 순] > ').split('|') # 입력중에 발생하는 예외
+    title, year, company, rate = input('영화입력[제목|개봉년|제각사|평점 순] > ').split('|') # 입력중에 발생하는 예외
     year = int(year) # 년도는 정수로 
     rate = float(rate) # 평점은 실수로 
     # print(title, year, company, rate)
@@ -76,6 +85,9 @@ def set_movie():
 def get_movie(items: list):
     for item in items:
         print(item) # Movie객체
+        print('----------') # 각 영화 아이텝별 구분자
+
+    print(f'총 데이터수 : {len(items)} 개')
 
 # 폴더에 파일로 영화리스트 저장
 def save_movie(items: list ):
