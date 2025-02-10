@@ -141,6 +141,10 @@ Iot 개발자 기초 프로그래밍 언어 리포지토리
 
             
 
+https://github.com/user-attachments/assets/fdd7bd43-bbc6-4ce2-bc3f-225d57551832
+
+
+
 
         - 챗 GPT 윈도우앱(tkinter) 만들기
 
