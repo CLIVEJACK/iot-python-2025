@@ -139,12 +139,7 @@ Iot 개발자 기초 프로그래밍 언어 리포지토리
             - 예외처리 : 입력시 바로 엔터, 입력시 4개의 아이템을 입력하지 않으면,
             - 화면편집 : 검색이나 출력시 데이터 수 표시 
 
-            
-
 https://github.com/user-attachments/assets/fdd7bd43-bbc6-4ce2-bc3f-225d57551832
-
-
-
 
         - 챗 GPT 윈도우앱(tkinter) 만들기
 
