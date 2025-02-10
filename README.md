@@ -146,7 +146,10 @@ https://github.com/user-attachments/assets/fdd7bd43-bbc6-4ce2-bc3f-225d57551832
         - 주피터 프로젝트에서 나온 결과물
         - Ctrl + Shift + p (명령 팔레트) 에서 시작
             - Create: 새 Jupyter 노트북 클릭
-            - 
+            - 무조건 저장먼저(.jpynb)
+        - GUI 학습에는 불합리 
+        - 빅데이터분석, 머신러닝, 딥러닝 많이 활용
+
     - GUI 학습(tkinter)
         - GUI(Graphic User Interface) - 그래픽 사용자 인터페이스
         - CLI(Console Line Interface) - GUI이전에 사용자 인터페이스 사용이 불편. 사용자가 명령어를 거의다 외워서 사용
@@ -165,3 +168,22 @@ https://github.com/user-attachments/assets/fdd7bd43-bbc6-4ce2-bc3f-225d57551832
              - 안드로이드, ios 모바일 앱 UI 사용가능 
              - 모바일특화로 멀티플랫폼 지원 
              - 가장어렵다
+
+    - Tkinter 학습
+        - 기본 템플릿
+
+        ```Python
+        from tkinter import *
+
+        root = Tk()
+        # 이사이에 위젯, 이벤트 등 작성
+        # Label, Button, Entry, Radiobutton
+        # Checkbutton, Listbox, Frame 등...
+        # 위젯.pack() 필수! 
+        root.mainloop()
+        ```
+
+<!-- 주석 -->
+<!-- html에서 사용하는 <img> 태그로 캡처한 이미지를 추가 -->
+![py001](./image/py001.png)
+<img src="./image/py001.png" width="400">
