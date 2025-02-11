@@ -1,4 +1,3 @@
-
 import random
 
 def generate_lotto_sets(num_sets, num_numbers, max_number):
@@ -33,4 +32,3 @@ if lotto_results:
         print(f"Set {i+1}: {lotto_set}")
 else:
     print("It's impossible to generate the requested sets with the given parameters.")
-
