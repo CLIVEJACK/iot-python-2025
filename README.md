@@ -187,3 +187,19 @@ https://github.com/user-attachments/assets/fdd7bd43-bbc6-4ce2-bc3f-225d57551832
 <!-- html에서 사용하는 <img> 태그로 캡처한 이미지를 추가 -->
 <!--[py001](./image/py001.png) -->
 <img src="./image/py001.png" width="400">
+
+## 7일차
+- 파이썬 응용
+    - 토이프로젝트
+        - ChatGPT 유사앱 - 구글 제미나이 API
+    - 실습 
+        - 제미나이 챗앱 -> **클래스**로 변경 
+
+    - 실행파일 만들기
+        - `pyinstaller` 모듈 설치 
+        - > pip install pyinstaller
+        - > pyistaller --onefile python_file.py
+        - 같이 실행되는 터미널을 제거하려면
+        - > pyistaller --onefile --noconsole 파이썬파일명
+        - 아이콘등의 리소스를 dist 폴더에 복사해야
+        
