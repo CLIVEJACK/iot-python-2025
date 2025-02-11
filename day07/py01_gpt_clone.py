@@ -8,7 +8,7 @@ from tkinter.font import *
 import google.generativeai as genai
 
 # 6. 제미나이용API
-genai.configure(api_key='AIzaSyA65b3a2FUVMznk5x5nsycayN5E0Msygv4') # 신청한 API키 
+genai.configure(api_key='내 API입력 ') # 신청한 API키 
 model = genai.GenerativeModel('gemini-1.5-flash') # AI 사전훈련모델
 
 
