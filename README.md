@@ -194,7 +194,13 @@ https://github.com/user-attachments/assets/fdd7bd43-bbc6-4ce2-bc3f-225d57551832
     - 토이프로젝트
         - ChatGPT 유사앱 - 구글 제미나이 API
     - 실습 
-        - 제미나이 챗앱 -> **클래스**로 변경 
+        - 제미나이 챗앱 -> **클래스**로 변경
+     
+
+
+https://github.com/user-attachments/assets/2c8e0d48-2455-4793-a590-b6d1db347e65
+
+
         
 - 파이썬 응용
     - 실행파일 만들기
