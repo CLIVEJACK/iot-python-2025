@@ -97,7 +97,7 @@ def main():
             BLOCK = [x for x in BLOCK if not x.rect.colliderect(BALL.rect)]
             if len (BLOCK) != LenBlock: # 공에 블럭이 맞아서
                 BALL.dir *= -1 # 공의 방향이 바뀜
-                BALL.speed += 0.25
+                BALL.speed += 0.25 # 속도 올리는거 
                 # 점수처리 
                 score += 10
             # 블럭때리는거 
