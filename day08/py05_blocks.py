@@ -97,7 +97,8 @@ def main():
             BLOCK = [x for x in BLOCK if not x.rect.colliderect(BALL.rect)]
             if len (BLOCK) != LenBlock: # 공에 블럭이 맞아서
                 BALL.dir *= -1 # 공의 방향이 바뀜
-
+                BALL.speed += 0.25
+                score += 10
             if BALL.rect.centery < 1000:
                 BALL.move()
 
