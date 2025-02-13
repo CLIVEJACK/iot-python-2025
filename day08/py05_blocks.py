@@ -38,7 +38,7 @@ def main():
     is_game_star = False  # 펠스 왜 쓰는거?
     score = 0
     BLOCK = []
-    BALL = Block((200,200,0), Rect(375,650,20,20), 10)  # 공 생성   색,rect 스피드 순서
+    BALL = Block((200,200,0), Rect(375,650,20,20), 10)  # 공 생성   색,rect 스피드 순서 
     PADDLE = Block((200,200,0),Rect(375,700,100,30)) # 공을 맞출 패달을 생성
 
     #크래스 생성
